@@ -1,0 +1,142 @@
+
+-----------
+At start
+-----------
+<head>
+<style type="text/css" media="print">
+.noprint { display:none }
+</style>
+ <script type="text/javascript"> 
+ function disableselect(e) { 
+   return false 
+ } 
+ 
+ function reEnable() { 
+   return true 
+ } 
+  document.onselectstart = new Function("return false") 
+  if (window.sidebar) { 
+   document.onmousedown = disableselect 
+   document.onclick = reEnable 
+ } 
+</script>
+
+<script type='text/javascript'>
+  document.onkeydown = function (e) {
+    e.preventDefault(); alert('Use of any key board key not allowed !'); 
+  }
+</script>
+
+</head>
+<div class="noprint">
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+<body onload="myFunction()">
+
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vTzLGArgwJUBh1S5mA8rcyjJzBXxRfmIDTlTN7g7i4Kz_e2n4a0rHribukSbqD9OQ/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+
+-----------------
+At End
+---------------------
+<script>
+function myFunction() {
+    var person= prompt(""Please enter your passcode (Sent to your mail after registering on PHAF). If not registered leave blank and click OK to get registration page", "");
+    if (person=="B01H" ||
+person=="EMGH" ||
+person=="RE113Z" ||
+person=="590BKY") {
+        document.getElementById("demo").innerHTML =
+        "Hello Member, Thanks for being part of PHAF. Have nice time ahead.";
+    }
+else
+   { document.body.innerHTML = '';
+    window.location="http://register.phaf.in";
+    }
+}
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+=========================================================================================
+<div dir="ltr" style="text-align: left;" trbidi="on">
+<head>
+<script language="JavaScript">
+<!--hide
+
+var password;
+
+
+password=prompt('To access this page you should be member of PHAF. To view this page please enter your passcode ( Sent to your mail on PHAF Registration ) !','');
+
+if (password=="B01H" ||
+password=="EMGH" ||
+password=="RE113Z" ||
+password=="590BKY")
+  alert(' Successfully Authenticated ! Click OK to enter!');
+else
+   { alert(' Authentication Failed ! Either you entered wrong passcode ( Make sure All Alphabets of Passcode are CAPITAL ) or You are not a PHAF member. Click OK to join and get access to this page !')
+    window.location="http://register.phaf.in";
+    }
+//-->
+</script>
+</head>
+<head>
+<style type="text/css" media="print">
+.noprint { display:none }
+</style>
+ <script type="text/javascript"> 
+ function disableselect(e) { 
+   return false 
+ } 
+ 
+ function reEnable() { 
+   return true 
+ } 
+  document.onselectstart = new Function("return false") 
+  if (window.sidebar) { 
+   document.onmousedown = disableselect 
+   document.onclick = reEnable 
+ } 
+</script>
+
+<script type='text/javascript'>
+  document.onkeydown = function (e) {
+    e.preventDefault(); alert('Use of any key board key not allowed !'); 
+  }
+</script>
+
+</head>
+<div class="noprint">
+
+=============================================================================================================================================
+
